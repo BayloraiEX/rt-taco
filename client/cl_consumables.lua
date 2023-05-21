@@ -274,7 +274,7 @@ RegisterNetEvent('rt-taco:client:makeCokeSoda', function()
 	local ingredients = QBCore.Functions.HasItem({"carbonated-water", "sugar-cubes"})
     if ingredients then
         TriggerEvent('animations:client:EmoteCommandStart', {"mechanic"})
-        TriggerServerEvent("InteractSound_SV:PlayWithinDistance", 20.0, "deepfry", 0.02)
+        TriggerServerEvent("InteractSound_SV:PlayWithinDistance", 20.0, "watermachine", 0.02)
         QBCore.Functions.Progressbar("taco_stuff", "Pouring Cocoa Cola", 3000, false, true, {
             disableMovement = true,
             disableCarMovement = false,
@@ -300,7 +300,7 @@ RegisterNetEvent('rt-taco:client:makeFanta', function()
 	local ingredients = QBCore.Functions.HasItem({"carbonated-water", "sugar-cubes"})
     if ingredients then
         TriggerEvent('animations:client:EmoteCommandStart', {"mechanic"})
-        TriggerServerEvent("InteractSound_SV:PlayWithinDistance", 20.0, "deepfry", 0.02)
+        TriggerServerEvent("InteractSound_SV:PlayWithinDistance", 20.0, "watermachine", 0.02)
         QBCore.Functions.Progressbar("taco_stuff", "Pouring Orange Fanta", 3000, false, true, {
             disableMovement = true,
             disableCarMovement = false,
