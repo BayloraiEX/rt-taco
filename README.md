@@ -65,6 +65,8 @@ Simple Taco Job For QB With Eye-Target
 ```
 # Dont forget to put the images from the images folder into your inventory images folder... qb-inventory -> html -> images
 # Want Sounds? add the files inside the sounds folder into your interact_sound -> client -> html -> sounds
+# Discord
+https://discord.gg/hya9t8XfH8
 # !!!CREDITS!!!
 Script is based off of Randolio's Burgershot | Cheers!!
 > - https://github.com/Randolio
